@@ -30,10 +30,11 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote-theme: bulma-clean-theme
+remote-theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
   - jekyll-v4-github-pages
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
