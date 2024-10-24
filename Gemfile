@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -15,9 +17,9 @@ gem 'jekyll', '~> 4.3.4'
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem 'bulma-clean-theme', '~>1.0'
   gem 'jekyll-feed', '~> 0.12'
   gem 'jekyll-v4-github-pages'
-  gem 'bulma-clean-theme', '~>1.0'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
