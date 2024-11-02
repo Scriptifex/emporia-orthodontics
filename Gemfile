@@ -10,7 +10,9 @@ ruby File.read('.ruby-version').strip
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+gem 'csv'
 gem 'jekyll', '~> 4.3.4'
+gem 'webrick'
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem 'bulma-clean-theme', '~>1.1'
 # gem 'minima', '~> 2.5'
@@ -19,8 +21,11 @@ gem 'bulma-clean-theme', '~>1.1'
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.12'
-  # gem 'jekyll-remote-theme'
+  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-seo-tag"
+  gem 'jekyll-redirect-from'
   gem 'jekyll-v4-github-pages'
 end
 
