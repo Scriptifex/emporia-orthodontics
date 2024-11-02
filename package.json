@@ -1,0 +1,14 @@
+{
+  "name": "emporia-orthodontics",
+  "version": "1.0.0",
+  "description": "just noodling around rn",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natalie Haught",
+  "license": "ISC"
+}
