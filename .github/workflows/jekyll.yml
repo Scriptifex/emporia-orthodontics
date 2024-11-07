@@ -45,13 +45,16 @@ jobs:
             node-version: 22
             cache: 'npm'
       - run: npm ci
-      - name: Setup Pages
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
         id: pages
-        uses: actions/configure-pages@v5
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
       - name: Build
         uses: actions/jekyll-build-pages@v1
-      - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
+      - name: Upload static files as artifact
+        id: deployment
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
