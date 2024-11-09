@@ -6,7 +6,7 @@ email: your-email@domain.com
 description: >
   Website for Emporia Orthodontics, a family practice based in Emporia, Kansas
 baseurl: "/emporia-orthodontics"
-url: "http://scriptifex.github.io"
+url: "https://scriptifex.github.io"
 permalink: pretty
 #favicon: /path/to/favicon.png
 #gh_sponsor: chrisrhymes
