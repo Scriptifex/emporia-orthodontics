@@ -1,18 +1,18 @@
 # Site Settings
 lang: en
 title: Emporia Orthodontics
-tagline: Bulma Clean Theme
+tagline: Emporia Orthodontics
 email: your-email@domain.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/"
-url: "/"
+  Website for Emporia Orthodontics, a family practice based in Emporia, Kansas
+baseurl: "/emporia-orthodontics"
+url: "http://scriptifex.github.io"
 permalink: pretty
 #favicon: /path/to/favicon.png
 #gh_sponsor: chrisrhymes
 hide_share_buttons: true
 #theme_color: '#eeeeee'
-fixed_navbar: top
+#fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 force_theme: light
 
@@ -61,7 +61,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
     values:
       show_sidebar: false
   -
